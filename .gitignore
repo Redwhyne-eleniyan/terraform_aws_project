@@ -1,0 +1,13 @@
+# ignore .tfstate files
+*.tfstate
+*.tfstate.*
+
+# local .terrafor directories
+**/.terraform/*
+
+# ignore .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json 
+
+# ignore .terraform files
+*.terraform
