@@ -74,6 +74,7 @@ resource "aws_security_group" "mysg" {
 resource "aws_s3_bucket" "mys3bucket" {
     bucket = "ridwanulahiafolabiterraform2020project" 
 }
+
 resource "aws_instance" "server1" {
   ami = var.ami
   instance_type = var.instance_type
